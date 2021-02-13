@@ -49,4 +49,4 @@ def stars(repos_all: Dict[str, List[str]]) -> None:
 
 if __name__ == "__main__": 
     repos = {"MLOps": ["bentoml/BentoML", "cortexproject/cortex", "kubeflow/kfserving"], "data_versioning": ["iterative/dvc", "mlflow/mlflow"]}
-    commits(repos)
+    stars(repos)
